@@ -1,0 +1,212 @@
+.explorer-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.explorer-header__circle{
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: var(--color_primary);
+    position: absolute;
+}
+.explorer-header__figure{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.explorer-header__title{
+    font-weight: 900;
+    font-size: 25px;
+    color: var(--color_black);
+    text-align: center;
+    margin: 1em 5px;
+    width: 90%;
+    max-width: 310px;
+    line-height: 32px;
+    z-index: 1;
+}
+.explorer-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.explorer-body__card{
+    background: var(--color_white);
+    margin: 15px 5px;
+    width: 90%;
+    padding: 30px;
+
+    border-radius: 20px;
+    text-align: center;
+}
+.card-background__img{
+    margin: 0;
+}
+.card-background__image{
+    width: 100%;
+    border-radius: 7%;
+}
+.card-background__image:hover{
+	transform: scale(1.1, 1.1);
+    transition: 0.4s ease-in;
+}
+
+
+.btn__price{
+    background: var(--color_white);
+    border-radius: 12px;
+    color: var(--color_primary);
+    margin: 0 auto;
+    width: 50%;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: -11px;
+    right: 0;
+    left: 0;
+}
+.card__title{
+    font-weight: 900;
+    font-size: 14px;
+}
+.card__description{
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.btn__readmore{
+    font-size: 14px;
+    background: var(--color_gray);
+    color: var(--color_button_text);
+    border-radius: 20px;
+    max-width: 140px;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+.btn__readmore:hover{
+    background: var(--color_primary);
+    color: var(--color_white);
+
+    transition: 0.4s ease-in;
+}
+.explorer-end{
+    margin-top: 20px;
+}
+.btn__viewall{
+    border: 1px solid var(--color_primary);
+    color: var(--color_primary);
+    display: block;
+    margin: 0px auto;
+    width: 156px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn__viewall:hover{
+    background: var(--color_primary);
+    color: var(--color_white);
+    transition: 0.4s ease-in;
+}
+.card__background{
+    position: relative;
+    margin-bottom: 25px;
+}
+.card-background__hearts{
+    width: 35px;
+    background: var(--color_white);
+    position: absolute;
+    border-radius: 10px;
+    right: 5%;
+    top: 10%;
+    cursor: pointer;
+}
+.card__heart-white{
+    margin: 2px
+}
+
+.card__heart-red{
+    margin: 2px;
+}
+.card-background__hearts:hover{
+    color: black;
+}
+.card__heart-red{
+    display: none;
+}
+.card__heart--selected{
+    display: block;
+}
+.explorer-body__card--fake{
+    padding: 0;
+    height: 0;
+    min-height: 0;
+    margin: 0;
+    background: transparent;
+}
+.shape-left__img{
+    position: absolute;
+    width: 600px;
+    right: -158px;
+    top: 830px;
+    z-index: 0;
+}
+
+.shape-right__img{
+    position: absolute;
+    width: 500px;
+    left: -249px;
+    top: 1700px;
+    z-index: 0;
+}
+
+@media screen and (min-width:440px ){
+    .explorer-body__card{
+        padding: 18px;
+        text-align: center;
+        width: calc(45% - 10px);
+    }
+    .card-background__image{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .btn__price{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:700px){
+    .explorer-body__card{
+        padding: 20px;
+        width: calc(30% - 2px);
+    }
+    .explorer-body__card--fake{
+        padding: 0;
+        height: 0;
+        min-height: 0;
+        margin: 0;
+    }
+}
+@media screen and (min-width:960px){
+    .explorer-body__card{
+        margin: 15px 10px;
+        padding: 26px;
+        width: calc(20% - 2px);
+        min-height: 40px;
+    }
+    
+}
+
