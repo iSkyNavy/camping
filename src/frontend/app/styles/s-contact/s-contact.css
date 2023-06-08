@@ -1,10 +1,10 @@
-
-.main-contact{
+.main-contact {
     display: flex;
     justify-content: center;
     margin-top: 95px;
 }
-.main-contact__background{
+
+.main-contact__background {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,40 +14,45 @@
     width: 90%;
     margin: 0 5px;
 }
-.main-contact__background{
+
+.main-contact__background {
     background-image: url('../../../asset/images/Enmascarar\ grupo\ 3.svg');
     background-position: bottom;
     background-size: cover;
     background-position-x: 50%;
     background-position-y: -1%;
-    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
 
-.contact__data{
+.contact__data {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.contact__title{
+
+.contact__title {
     font-weight: 900;
     font-size: 30px;
     color: var(--color_black);
     padding: 0px 45px 20px 45px;
     line-height: 36px;
 }
-.contact__text{
+
+.contact__text {
     font-size: 12px;
     font-weight: 500;
     color: var(--color_black);
     margin: 0 32px;
     line-height: 22px;
 }
-.contact__form{
+
+.contact__form {
     margin-top: 10px;
     width: 88%;
 }
-.contact-form__content{
+
+.contact-form__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,24 +61,28 @@
     padding: 8px 10px 8px 20px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
-.contact-form__input-cover{
+
+.contact-form__input-cover {
     display: flex;
     align-items: center;
     margin-right: 5px;
     width: 86%;
 }
-.contact__input{
-    font-family:Arial,FontAwesome;
+
+.contact__input {
+    font-family: Arial, FontAwesome;
     height: 40px;
     font-size: 12px;
     width: 100%;
 }
-.contact__input:focus{
+
+.contact__input:focus {
     border-bottom: 1px solid var(--color_primary);
-    transform: scaleX(1) translateY(-2px);   
+    transform: scaleX(1) translateY(-2px);
     opacity: 1;
 }
-.contact__button{
+
+.contact__button {
     background: var(--color_primary);
     width: 36px;
     height: 36px;
@@ -82,118 +91,144 @@
     cursor: pointer;
     box-shadow: 2px 4px 3px 1px rgb(229 145 100 / 25%);
 }
-.form-button__icon{
+
+.form-button__icon {
     margin-right: 6px;
     background: transparent;
 }
-.icon__message{
+
+.icon__message {
     font-size: 100%;
-    color: rgba(0,0,0,0.5) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
 }
-.icon__telegram{
+
+.icon__telegram {
     font-size: 100%;
 }
-.contact__section-1{
+
+.contact__section-1 {
     margin-bottom: 30px;
 }
-.contact__section-2{
+
+.contact__section-2 {
     margin: 15px auto;
     padding: 5% !important;
 }
-.contact__img{
+
+.contact__img {
     width: 100%;
 }
 
 @media screen and (min-width:440px) {
-    .main-contact__background{
-        width: calc(90% - 10px); 
+    .main-contact__background {
+        width: calc(90% - 10px);
     }
-    
+
 }
+
 @media screen and (min-width:700px) {
-    .main-contact__background{
+    .main-contact__background {
         flex-direction: row;
         flex-wrap: nowrap;
         width: calc(90% + 14px);
         height: 280px;
     }
-    .contact__section-1{
+
+    .contact__section-1 {
         margin-bottom: 0px;
     }
-    .contact__data{
+
+    .contact__data {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .contact-form__content {
         padding: 4px 10px 4px 25px;
         align-items: center;
     }
-    .contact__button{
+
+    .contact__button {
         width: 30px;
         height: 30px;
         border-radius: 10px;
     }
-    .icon__telegram{
+
+    .icon__telegram {
         font-size: 16px;
     }
-    .contact__title{
+
+    .contact__title {
         font-weight: 900;
         font-size: 24px;
         color: var(--color_black);
         padding: 25px 18px;
     }
-    .contact__section-2{
+
+    .contact__section-2 {
         margin: 0;
     }
 }
+
 @media screen and (min-width:960px) {
-    .main-contact__background{
-        width: calc(80% + 52px); 
+    .main-contact__background {
+        width: calc(80% + 52px);
         height: 250px;
         padding: 0 50px;
     }
-    .contact__section-1{
+
+    .contact__section-1 {
         margin-bottom: 0px;
         margin-right: 10%;
     }
-    .contact__data{
-        text-align: start; 
+
+    .contact__data {
+        text-align: start;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
-    .contact__form{
+
+    .contact__form {
         width: 100%;
     }
-    .contact__input{
+
+    .contact__input {
         padding-left: 0px
     }
-    .contact__title{
-        
+
+    .contact__title {
+
         padding: 0px;
         margin-bottom: 10px;
     }
-    .contact__text{
+
+    .contact__text {
         margin: 0;
         width: 85%;
     }
-    .contact__section-2{
+
+    .contact__section-2 {
         width: 50%;
         padding: 0px !important;
     }
-    .contact__img{
+
+    .contact__img {
         width: 300px;
     }
 }
+
 @media screen and (min-width:1024px) {
     .main-contact__background {
         justify-content: space-around;
     }
-    .contact__section-1{
+
+    .contact__section-1 {
         margin-right: 8%;
     }
-    .contact__section-2{
+
+    .contact__section-2 {
         width: auto;
     }
 }

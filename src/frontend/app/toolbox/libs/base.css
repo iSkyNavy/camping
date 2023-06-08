@@ -1,35 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
-    font-family: 'roboto', sans-serif, helvetica}
+html {
+    font-family: 'roboto', sans-serif, helvetica
+}
 
-a{
+a {
     text-decoration: none;
-    color: inherit}
+    color: inherit
+}
 
-ul{
-    list-style: none}
+ul {
+    list-style: none
+}
 
-i{
+i {
     font-size: 0;
     display: block
 }
-p{
+
+p {
     letter-spacing: 0.01em;
     line-height: 1.2em;
     /* color: $color_app_text_normal */
 }
-input, button, textarea{
+
+input,
+button,
+textarea {
     border: none;
     outline: none;
     font-family: inherit;
     font-size: inherit
 }
-/* figure{
-    margin: 0 !important;
-    padding: 0 !important;
-} */
