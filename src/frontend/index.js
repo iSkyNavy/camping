@@ -16,10 +16,6 @@ function openMenu() {
   }
 }
 
-//selected heart red.
-const classHeartWhite = "card__heart-white";
-const classHeartRed = "card__heart-red";
-
 function heartSelected(img) {
   switch (img.alt) {
     case "heart-white":
@@ -33,7 +29,7 @@ function heartSelected(img) {
       break;
   }
 }
-// to close menu when the user do click any item.
+
 function closeMenu() {
   contentLine.classList.remove(classLine);
   contentMenu.classList.remove(classOpen);
